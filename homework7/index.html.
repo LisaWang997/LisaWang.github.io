@@ -18,13 +18,13 @@
 <head>
     <meta charset="utf-8">
 
-    <img src="Budget.jpg" style="width:auto;height:500px">
+    <img src="Budget.jpg" style="width:auto;height:450px;text-align:center">
      <p style="text-align:center;color:#476268;font-size:48px">
      The HK Budget in 2018
      </p>
 </head>
 <br></br>
-<br></br>
+
 <body style="background-color:#F1F1F1">
     <h2 >
     Throughout 2017, the global economic landscape continued to improve. Hong Kong's economy grew by 3.8 per cent last year, higher than the forecast in last year's Budget and the average trend growth rate of 2.9 per cent over the decade from 2007 to 2016.
@@ -32,7 +32,7 @@
     
     </h2>
     <br></br>
-    <br></br>
+
     <script>
     var width = 400;
     var height = 400;
@@ -121,14 +121,14 @@
         .attr("transform", "translate(" + padding.left + "," + padding.top + ")")
         .call(yAxis);
 </script>
-<br></br><br></br>
+<br></br>
 <h2 >
 The government forecast a surplus of $46.6 billion in the Consolidated Account in the coming year. 
 <br></br>
 Total government revenue for 2018-19 is estimated to be $604.5 billion, of which earnings and profits tax is estimated at $218.4 billion.  The revenue from land premium is estimated to be $121 billion, while that from stamp duties is estimated to be $100 billion.  The overall expenditure of the Government for 2018-19 is estimated to be $557.9 billion, an increase of 17.6 per cent compared with the revised estimate for 2017-18.  Operating expenditure for 2018-19 is estimated to be $441.5 billion, a year-on-year increase of 18.4 per cent or $68.6 billion.  Recurrent expenditure, which accounts for over 90 per cent of operating expenditure, will reach $406.5 billion, a year-on-year increase of 11.8 per cent or $42.8 billion.
 
   </h2>
-  <br></br><br></br>
+  <br></br>
    <h3 >
    The Government Revenue in 2018-2019
    </h3>
@@ -183,17 +183,17 @@ Total government revenue for 2018-19 is estimated to be $604.5 billion, of which
             })
     </script>
 
-<h3 style="text-align:center">
-<ol>
+<h3 >
+<ul>
 <li>6.6%:Investment Income</li>
 <li>20%:Land Premium</li>
 <li>22.1%:Other Revenue</li>
 <li>25.7%:Profits Tax</li>
 <li>9.1%:Salaries Tax</li>
 <li>16.5%:Stamp Duties</li>
-</ol>
+</ul>
 </h3>
-  <br></br>    <br></br>
+  <br></br>  
  
 <h3 >
    The Government Expenditure in 2018-2019
@@ -249,8 +249,8 @@ Total government revenue for 2018-19 is estimated to be $604.5 billion, of which
             })
     </script>
     
-<h3 style="text-align:center">
-<ol>
+<h3 >
+<ul>
 <li>20.4%:Education</li>
 <li>14%:Health</li>
 <li>16.5%:Social Welfare</li>
@@ -259,9 +259,9 @@ Total government revenue for 2018-19 is estimated to be $604.5 billion, of which
 <li>3.8%:Economic</li>
 <li>9.6%:Security</li>
 <li>15.6%:Others</li>
-</ol>
+</ul>
 </h3>
-    <br></br>  <br></br>
+    <br></br>  
     <h2>
     The government said economic development increases income and enables us to improve people's livelihood and drive for society progress.
     </h2>
