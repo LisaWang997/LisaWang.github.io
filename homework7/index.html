@@ -32,19 +32,19 @@
 </head>
 <br></br>
 
-<body style="background-color:#F1F1F1">
-	<div id="div_A">
+<body_A style="background-color:#F1F1F1">
+	
     <h2 >
     Throughout 2017, the global economic landscape continued to improve. Hong Kong's economy grew by 3.8 per cent last year, higher than the forecast in last year's Budget and the average trend growth rate of 2.9 per cent over the decade from 2007 to 2016.
     
     
     </h2>
-	</div>
+	
     <script>
     var width = 400;
-    var height = 400;
+    var height = 300;
    
-    var bar_svg = d3.select("div_A")
+    var bar_svg = d3.select("body_A")
         .append("svg")
         .attr("width", width)
         .attr("height", height);
@@ -128,8 +128,8 @@
         .attr("transform", "translate(" + padding.left + "," + padding.top + ")")
         .call(yAxis);
 </script>
-
-
+</body>
+<body_B style="background-color:#F1F1F1">
 
 	<h2 >
 The government forecast a surplus of $46.6 billion in the Consolidated Account in the coming year. 
@@ -158,7 +158,7 @@ Total government revenue for 2018-19 is estimated to be $604.5 billion, of which
             .outerRadius(outerRadius)
             .innerRadius(innerRadius);
 
-        var svg = d3.select("body")
+        var svg = d3.select("body_B")
             .append("svg")
             .attr("width", w)
             .attr("height", h);
@@ -204,7 +204,8 @@ Total government revenue for 2018-19 is estimated to be $604.5 billion, of which
 <li>16.5%:Stamp Duties</li>
 </ul>
 </h3>
-
+	</body>
+<body_c style="background-color:#F1F1F1">
 
 <h3 >
    The Government Expenditure in 2018-2019
@@ -227,7 +228,7 @@ Total government revenue for 2018-19 is estimated to be $604.5 billion, of which
             .outerRadius(outerRadius)
             .innerRadius(innerRadius);
 
-        var svg = d3.select("body")
+        var svg = d3.select("body_c")
             .append("svg")
             .attr("width", w)
             .attr("height", h);
