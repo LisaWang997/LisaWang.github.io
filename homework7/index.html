@@ -20,7 +20,7 @@
     
 <div class="img">
 	<span class="icenter"><img src="DNS-Budget2018.jpg"></span>
-</div>
+
 .img .icenter {
 	display:table-cell;
 	vertical-align:middle;
@@ -32,7 +32,7 @@
 	vertical-align:middle;
 	display:inline-block
 }
-    
+    </div>
   
      <p style="text-align:center;color:#476268;font-size:48px">
      The HK Budget in 2018
@@ -41,18 +41,17 @@
 <br></br>
 
 <body style="background-color:#F1F1F1">
-    <h2 >
+    <div id="d1"><h2 >
     Throughout 2017, the global economic landscape continued to improve. Hong Kong's economy grew by 3.8 per cent last year, higher than the forecast in last year's Budget and the average trend growth rate of 2.9 per cent over the decade from 2007 to 2016.
     
     
-    </h2>
-
-	<div id="1"></div>
+    </h2></div>
+   
     <script>
     var width = 400;
     var height = 400;
    
-    var svg = d3.select("1")
+    var bar_svg = d3.select("d1")
         .append("svg")
         .attr("width", width)
         .attr("height", height);
@@ -137,7 +136,8 @@
         .call(yAxis);
 </script>
 
-<h2 >
+<div id="d2">
+	<h2 >
 The government forecast a surplus of $46.6 billion in the Consolidated Account in the coming year. 
 <br></br>
 Total government revenue for 2018-19 is estimated to be $604.5 billion, of which earnings and profits tax is estimated at $218.4 billion.  The revenue from land premium is estimated to be $121 billion, while that from stamp duties is estimated to be $100 billion.  The overall expenditure of the Government for 2018-19 is estimated to be $557.9 billion, an increase of 17.6 per cent compared with the revised estimate for 2017-18.  Operating expenditure for 2018-19 is estimated to be $441.5 billion, a year-on-year increase of 18.4 per cent or $68.6 billion.  Recurrent expenditure, which accounts for over 90 per cent of operating expenditure, will reach $406.5 billion, a year-on-year increase of 11.8 per cent or $42.8 billion.
@@ -147,8 +147,8 @@ Total government revenue for 2018-19 is estimated to be $604.5 billion, of which
    <h3 >
    The Government Revenue in 2018-2019
    </h3>
+</div>	
 	
-	<div id="2"></div>
    <script>
         var dataset = [25.7, 22.1, 6.6, 20, 9.1, 16.5];
 
@@ -164,7 +164,7 @@ Total government revenue for 2018-19 is estimated to be $604.5 billion, of which
             .outerRadius(outerRadius)
             .innerRadius(innerRadius);
 
-        var svg = d3.select("2")
+        var svg = d3.select("d2")
             .append("svg")
             .attr("width", w)
             .attr("height", h);
@@ -211,12 +211,12 @@ Total government revenue for 2018-19 is estimated to be $604.5 billion, of which
 </ul>
 </h3>
 
- 
+ <div id="d3">
 <h3 >
    The Government Expenditure in 2018-2019
    </h3>
+	</div>
 	
-	<div id="3"></div>
     <script>
         var dataset = [20.4, 16.5, 15.6, 15.3, 9.6, 4.8, 14, 3.8];
 
