@@ -32,18 +32,18 @@
 </head>
 <br></br>
 
-<body style="background-color:#F1F1F1">
-    <div id="d1"><h2 >
+<body_A style="background-color:#F1F1F1">
+    <h2 >
     Throughout 2017, the global economic landscape continued to improve. Hong Kong's economy grew by 3.8 per cent last year, higher than the forecast in last year's Budget and the average trend growth rate of 2.9 per cent over the decade from 2007 to 2016.
     
     
-    </h2></div>
-   
+    </h2>
+
     <script>
     var width = 400;
     var height = 400;
    
-    var bar_svg = d3.select("d1")
+    var bar_svg = d3.select("body_A")
         .append("svg")
         .attr("width", width)
         .attr("height", height);
@@ -127,8 +127,9 @@
         .attr("transform", "translate(" + padding.left + "," + padding.top + ")")
         .call(yAxis);
 </script>
+	</body>
+<body_B style="background-color:#F1F1F1">
 
-<div id="d2">
 	<h2 >
 The government forecast a surplus of $46.6 billion in the Consolidated Account in the coming year. 
 <br></br>
@@ -139,7 +140,7 @@ Total government revenue for 2018-19 is estimated to be $604.5 billion, of which
    <h3 >
    The Government Revenue in 2018-2019
    </h3>
-</div>	
+
 	
    <script>
         var dataset = [25.7, 22.1, 6.6, 20, 9.1, 16.5];
@@ -156,7 +157,7 @@ Total government revenue for 2018-19 is estimated to be $604.5 billion, of which
             .outerRadius(outerRadius)
             .innerRadius(innerRadius);
 
-        var svg = d3.select("d2")
+        var svg = d3.select("body_B")
             .append("svg")
             .attr("width", w)
             .attr("height", h);
@@ -202,12 +203,12 @@ Total government revenue for 2018-19 is estimated to be $604.5 billion, of which
 <li>16.5%:Stamp Duties</li>
 </ul>
 </h3>
-
- <div id="d3">
+</body>
+<body_C style="background-color:#F1F1F1">
 <h3 >
    The Government Expenditure in 2018-2019
    </h3>
-	</div>
+	
 	
     <script>
         var dataset = [20.4, 16.5, 15.6, 15.3, 9.6, 4.8, 14, 3.8];
@@ -225,7 +226,7 @@ Total government revenue for 2018-19 is estimated to be $604.5 billion, of which
             .outerRadius(outerRadius)
             .innerRadius(innerRadius);
 
-        var svg = d3.select("3")
+        var svg = d3.select("body_C")
             .append("svg")
             .attr("width", w)
             .attr("height", h);
